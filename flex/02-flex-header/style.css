@@ -1,10 +1,19 @@
 .header  {
   font-family: monospace;
-  background: papayawhip;
+  background-color: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 40px;
+}
+
+ul{
+  display: flex;
+  gap: 2vw;
 }
 
 .logo {
-  font-size: 48px;
+  font-size: 30px;
   font-weight: 900;
   color: tomato;
   background: white;
